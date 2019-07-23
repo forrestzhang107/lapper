@@ -1,0 +1,27 @@
+{
+  "name": "lapper",
+  "version": "1.0.3",
+  "description": "Simple process timer for nodeJS. Useful for timing multiple subsections of code.",
+  "main": "polytimer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forrestzhang107/timer.git"
+  },
+  "author": "forrestzhang107",
+  "keywords": [
+    "lapper",
+    "stopwatch",
+    "utility",
+    "timer",
+    "lap",
+    "split"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forrestzhang107/timer/issues"
+  },
+  "homepage": "https://github.com/forrestzhang107/timer#readme"
+}
