@@ -20,7 +20,6 @@ sw.lap('function_2')
 // returns: 90
 
 const output = sw.log()
-console.log(output)
 ```
 
 Output: `{ 'function_1': 441, 'function_2': 90, total: 531 }`
@@ -87,7 +86,6 @@ doSomethingElse()
 sw.lap()
 
 const output = sw.log()
-console.log(output)
 ```
 
 Output: `{ 'split_1': 441, 'split_2': 90, total: 531 }`
