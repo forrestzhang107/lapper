@@ -1,5 +1,10 @@
 class Lapper {
 
+  constructor(start) {
+    if (start)
+      this.start()
+  }
+
   lap(label, print) {
     if (!this.ticking) this.start()
     if (!label) {
