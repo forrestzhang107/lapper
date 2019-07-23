@@ -26,7 +26,9 @@ Output: `{ 'function_1': 441, 'function_2': 90, total: 531 }`
 
 Execution time is in milliseconds
 
-## Optional AutoLogging
+## Logging
+
+The lap and log functions can be told to print to console automatically.
 
 ```javascript
 const Lapper = require('lapper')
@@ -42,7 +44,9 @@ sw.log(true)
 // prints: { 'function_1': 441, total: 441 }
 ```
 
-## AutoStart the Stopwatch
+## Start on Creation
+
+The stopwatch can be told to start timing right away.
 
 ```javascript
 const Lapper = require('lapper')
@@ -54,7 +58,7 @@ sw.lap('function_1', true)
 // prints: 'function_1: 441'
 ```
 
-## Restart the Stopwatch
+## Restarting
 
 ```javascript
 const Lapper = require('lapper')
