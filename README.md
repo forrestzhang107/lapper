@@ -1,6 +1,6 @@
 # Lapper
 
-A minimalistic stopwatch utility.
+A minimalistic stopwatch utility.  
 Useful for recording multiple execution times for subsections of code.
 
 ## Usage

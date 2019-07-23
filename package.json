@@ -1,0 +1,27 @@
+{
+  "name": "lapper",
+  "version": "1.0.0",
+  "description": "A minimalistic stopwatch utility. Useful for recording multiple execution times for subsections of code.",
+  "main": "lapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forrestzhang107/lapper.git"
+  },
+  "keywords": [
+    "lapper",
+    "stopwatch",
+    "utility",
+    "timer",
+    "lap",
+    "split"
+  ],
+  "author": "forrestzhang107",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forrestzhang107/lapper/issues"
+  },
+  "homepage": "https://github.com/forrestzhang107/lapper#readme"
+}
