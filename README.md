@@ -1,6 +1,7 @@
 # Lapper
 
-A minimalistic stopwatch utility. Useful for recording multiple execution times for subsections of code.
+A minimalistic stopwatch utility.
+Useful for recording multiple execution times for subsections of code.
 
 ## Usage
 
@@ -11,11 +12,11 @@ const sw = new Lapper()
 sw.start()
 
 doSomething()
-const f1 = sw.lap('function_1')
+sw.lap('function_1')
 // returns: 441
 
 doSomethingElse()
-const f2 = sw.lap('function_2')
+sw.lap('function_2')
 // returns: 90
 
 const output = sw.log()
@@ -46,7 +47,7 @@ sw.log(true)
 // prints: { 'function_1': 441, 'function_2': 90, total: 531 }
 ```
 
-### Stopwatch Restart
+### Restart the Stopwatch
 
 ```javascript
 const Lapper = require('lapper')
@@ -56,6 +57,9 @@ sw.start()
 
 doSomething()
 sw.lap('function_1')
+
+sw.log(true)
+// prints: { 'function_1': 441 }
 
 sw.restart()
 
