@@ -26,7 +26,7 @@ Output: `{ 'function_1': 441, 'function_2': 90, total: 531 }`
 
 Execution time is in milliseconds
 
-### Optional Auto-Logging
+## Optional Auto-Logging
 
 ```javascript
 const Lapper = require('lapper')
@@ -46,7 +46,7 @@ sw.log(true)
 // prints: { 'function_1': 441, 'function_2': 90, total: 531 }
 ```
 
-### Restart the Stopwatch
+## Restart the Stopwatch
 
 ```javascript
 const Lapper = require('lapper')
@@ -69,7 +69,7 @@ sw.log(true)
 // prints: { 'function_2': 90, total: 90 }
 ```
 
-### Unlabeled Splits
+## Unlabeled Splits
 
 ```javascript
 const Lapper = require('lapper')
