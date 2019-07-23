@@ -58,7 +58,9 @@ sw.lap('function_1', true)
 // prints: 'function_1: 441'
 ```
 
-## Restarting
+## Stopwatch Restart
+
+Restart the timer on the stopwatch.
 
 ```javascript
 const Lapper = require('lapper')
