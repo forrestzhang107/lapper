@@ -72,7 +72,7 @@ doSomething()
 sw.lap('function_1')
 
 sw.log(true)
-// prints: { 'function_1': 441 }
+// prints: { 'function_1': 441, total: 441 }
 
 sw.restart()
 
