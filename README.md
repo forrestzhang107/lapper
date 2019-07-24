@@ -5,7 +5,6 @@ Useful for recording multiple execution times for subsections of code.
 
 ## Usage
 
-Initialize the Lapper  
 `start()` the stopwatch and then use `lap()` to record a split after running some code.  
 Pass a string to `lap()` to label your splits.  
 `log()` produces a record of your labeled split times.
