@@ -27,7 +27,7 @@ const output = sw.log()
 ```
 
 Output: `{ 'function_1': 441, 'function_2': 90, total: 531 }`  
-Execution time is in milliseconds
+Execution time is in milliseconds.
 
 ## Logging
 
