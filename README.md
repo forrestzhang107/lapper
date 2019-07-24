@@ -26,7 +26,7 @@ sw.lap('function_2')
 const output = sw.log()
 ```
 
-Output: `{ 'function_1': 441, 'function_2': 90, total: 531 }`
+Output: `{ 'function_1': 441, 'function_2': 90, total: 531 }`  
 Execution time is in milliseconds
 
 ## Logging
@@ -63,7 +63,7 @@ sw.lap('function_1', true)
 
 ## Stopwatch Restart
 
-Restart the timer on the stopwatch with `reset()`.
+Restart the timer on the stopwatch with `restart()`.
 
 ```javascript
 const Lapper = require('lapper')
@@ -88,7 +88,7 @@ sw.log(true)
 
 ## Unlabeled Splits
 
-Unlabeled splits will be named 'split_1', 'split_2', ... 'split_n'
+Unlabeled splits will default to `'split_1', 'split_2', ... 'split_n'`
 
 ```javascript
 const Lapper = require('lapper')
