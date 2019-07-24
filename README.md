@@ -5,9 +5,9 @@ Useful for recording multiple execution times for subsections of code.
 
 ## Usage
 
-start() the stopwatch and then use lap() to record a split after running some code.  
-Pass a string to lap() to label your splits.  
-log() produces a record of your split times.
+`start()` the stopwatch and then use `lap()` to record a split after running some code.  
+Pass a string to `lap()` to label your splits.  
+`log()` produces a record of your split times.
 
 ```javascript
 const Lapper = require('lapper')
@@ -32,7 +32,7 @@ Execution time is in milliseconds
 
 ## Logging
 
-The lap and log functions can be told to print to console automatically.
+`lap()` and `log()` can be told to print to console automatically by passing `true` as the final parameter.
 
 ```javascript
 const Lapper = require('lapper')
@@ -50,7 +50,7 @@ sw.log(true)
 
 ## Start on Creation
 
-The stopwatch can be told to start timing right away.
+The stopwatch can be told to start timing right away by passing `true` to the constructor.
 
 ```javascript
 const Lapper = require('lapper')
@@ -64,7 +64,7 @@ sw.lap('function_1', true)
 
 ## Stopwatch Restart
 
-Restart the timer on the stopwatch.
+Restart the timer on the stopwatch with `reset()`.
 
 ```javascript
 const Lapper = require('lapper')
@@ -89,7 +89,7 @@ sw.log(true)
 
 ## Unlabeled Splits
 
-Unlabeled splits will default to 'split_1', 'split_2', ... 'split_n'
+Unlabeled splits will be named 'split_1', 'split_2', ... 'split_n'
 
 ```javascript
 const Lapper = require('lapper')
