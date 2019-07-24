@@ -5,6 +5,10 @@ Useful for recording multiple execution times for subsections of code.
 
 ## Usage
 
+start() the stopwatch and then use lap() to record a split after running some code.  
+Pass a string to lap() to label your splits.  
+log() produces a record of your split times.
+
 ```javascript
 const Lapper = require('lapper')
 
@@ -84,6 +88,8 @@ sw.log(true)
 ```
 
 ## Unlabeled Splits
+
+Unlabeled splits will default to 'split_1', 'split_2', ... 'split_n'
 
 ```javascript
 const Lapper = require('lapper')
