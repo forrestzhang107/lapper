@@ -1,6 +1,6 @@
 {
   "name": "lapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A minimalistic stopwatch utility. Useful for recording multiple execution times for subsections of code.",
   "main": "lapper.js",
   "scripts": {

@@ -99,8 +99,6 @@ sw.start()
 doSomething()
 sw.lap()
 
-sw.reset()
-
 doSomethingElse()
 sw.lap()
 
