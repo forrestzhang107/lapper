@@ -5,9 +5,10 @@ Useful for recording multiple execution times for subsections of code.
 
 ## Usage
 
+Initialize the Lapper  
 `start()` the stopwatch and then use `lap()` to record a split after running some code.  
 Pass a string to `lap()` to label your splits.  
-`log()` produces a record of your split times.
+`log()` produces a record of your labeled split times.
 
 ```javascript
 const Lapper = require('lapper')
@@ -27,12 +28,11 @@ const output = sw.log()
 ```
 
 Output: `{ 'function_1': 441, 'function_2': 90, total: 531 }`
-
 Execution time is in milliseconds
 
 ## Logging
 
-`lap()` and `log()` can be told to print to console automatically by passing `true` as the final parameter.
+`lap()` and `log()` can be told to print to console automatically by passing `true` as a parameter.
 
 ```javascript
 const Lapper = require('lapper')
