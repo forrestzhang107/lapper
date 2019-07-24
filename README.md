@@ -47,7 +47,7 @@ sw.log(true)
 // prints: { 'function_1': 441, total: 441 }
 ```
 
-## Start on Creation
+## Starting
 
 The stopwatch can be told to start timing right away by passing `true` to the constructor.
 
@@ -61,7 +61,7 @@ sw.lap('function_1', true)
 // prints: 'function_1: 441'
 ```
 
-## Stopwatch Restart
+## Restarting
 
 Restart the timer on the stopwatch with `restart()`.
 
@@ -86,7 +86,7 @@ sw.log(true)
 // prints: { 'function_2': 90, total: 90 }
 ```
 
-## Unlabeled Splits
+## Default Labels
 
 Unlabeled splits will default to `'split_1', 'split_2', ... 'split_n'`
 
