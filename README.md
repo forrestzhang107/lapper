@@ -3,6 +3,12 @@
 A minimalistic stopwatch utility.  
 Useful for recording multiple execution times for subsections of code.
 
+## Installation
+
+```
+npm i lapper
+```
+
 ## Usage
 
 `start()` the stopwatch and then use `lap()` to record a split after running some code.  
