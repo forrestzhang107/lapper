@@ -40,9 +40,6 @@ Execution time is in milliseconds.
 `lap()` and `log()` can be told to print to console automatically by passing `true` as a parameter.
 
 ```javascript
-const Lapper = require('lapper')
-
-const sw = new Lapper()
 sw.start()
 
 doSomething()
@@ -58,8 +55,6 @@ sw.log(true)
 The stopwatch can be told to start timing right away by passing `true` to the constructor.
 
 ```javascript
-const Lapper = require('lapper')
-
 const sw = new Lapper(true)
 
 doSomething()
@@ -72,9 +67,6 @@ sw.lap('function_1', true)
 Restart the timer on the stopwatch with `restart()`.
 
 ```javascript
-const Lapper = require('lapper')
-
-const sw = new Lapper()
 sw.start()
 
 doSomething()
@@ -97,9 +89,6 @@ sw.log(true)
 Unlabeled splits will default to `'split_1', 'split_2', ... 'split_n'`
 
 ```javascript
-const Lapper = require('lapper')
-
-const sw = new Lapper()
 sw.start()
 
 doSomething()
